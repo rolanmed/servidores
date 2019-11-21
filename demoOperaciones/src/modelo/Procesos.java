@@ -21,7 +21,10 @@ public class Procesos {
         resultado = d.getNumA() + d.getNumB();
         return resultado;
     }
-    
-    
+
+    public double division(Datos d){
+        resultado = d.getNumA() / d.getNumB();
+        return resultado;
+    }
     
 }

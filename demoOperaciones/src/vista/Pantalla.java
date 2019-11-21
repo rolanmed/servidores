@@ -186,6 +186,9 @@ public class Pantalla extends javax.swing.JFrame {
 
     private void btnDivisionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDivisionActionPerformed
         // TODO add your handling code here:
+        d.setNumA(Double.parseDouble(txtNumA.getText()));
+        d.setNumB(Double.parseDouble(txtNumB.getText()));
+        txtResultado.setText(String.valueOf(p.division(d)));
     }//GEN-LAST:event_btnDivisionActionPerformed
 
     /**
