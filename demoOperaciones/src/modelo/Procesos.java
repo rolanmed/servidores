@@ -27,4 +27,8 @@ public class Procesos {
         return resultado;
     }
     
+ public double resta(Datos d){
+        resultado = d.getNumA() - d.getNumB();
+        return resultado;
+    }
 }
